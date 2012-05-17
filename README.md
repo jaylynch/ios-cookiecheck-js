@@ -9,8 +9,7 @@ Recent issues around iOS cookie support and surprise at the lack of an instant, 
 * A lightweight, vanilla JS file (No need for jQuery, etc.)
 * Display a fullscreen overlay preventing users with cookies disabled from interacting with the site 
 * Points them to an Apple page with instructions for configuring the appropriate settings.
-
-Perhaps not the gentlest fix in the world but for plenty of sites it's better than attempting to let them do anything without cookies.
+* Perhaps not the gentlest 'fix' in the world but for plenty of sites it's better than attempting to let them do anything without cookies.
 
 ## Compatibility
 
@@ -22,7 +21,7 @@ Currently only tested on iOS 5 on an iPhone 4S but should work on pretty much an
 * Insert script tag at end of body
     <script type="text/javascript" src="/js/ios-cookiecheck.min.js"></script>
 
-See included sample.html for an example.
+* See included sample.html for an example.
 
 ## Misc
 
